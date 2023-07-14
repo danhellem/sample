@@ -6,6 +6,7 @@ on: # rebuild any PRs for main branch changes
       - main 
 jobs:
   create-edit-comment:
+    permissions: write-all
     name: check   
     runs-on: ubuntu-latest
     steps:
